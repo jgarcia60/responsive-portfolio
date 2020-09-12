@@ -1,0 +1,25 @@
+
+.container img{
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+    /* margin: 0px; */
+    /* position: relative; */
+    /* float: left; */
+}
+
+/* .container .row .col-md-12 .wrapText {
+    float: left;
+} */
+p {
+    text-align: left;
+    [position: relative;]
+}
+
+#center-text {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
