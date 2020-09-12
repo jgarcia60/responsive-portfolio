@@ -1,3 +1,10 @@
+#Name{
+    background-color: rgb(7, 151, 127);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin-left: 75px;
+}
 .container h1{
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -41,6 +48,6 @@ footer {
     text-align: center;   
 }
 footer p{
-    color: lightgrey;
+    color: rgb(110, 106, 106);
     text-align: center;    
 }
