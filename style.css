@@ -1,3 +1,11 @@
+.container h1{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: gray;
+    font-weight: 900;
+    color: rgb(7, 151, 127);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 
 .container img{
     background-color: gray;
@@ -21,5 +29,18 @@ p {
 }
 
 footer {
-    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-color: rgb(7, 151, 127);
+    height: 50px;
+    background-color: grey;
+    text-align: center;   
+}
+footer p{
+    color: lightgrey;
+    text-align: center;    
 }
