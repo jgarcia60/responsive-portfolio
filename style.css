@@ -1,9 +1,19 @@
+body{
+    background-image: url("./Assets/Images/monkeys.png");
+    background-size: cover;
+    background-position: center;;
+}
 #Name{
     background-color: rgb(7, 151, 127);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    margin-left: 75px;
+    margin-left: 70px;
+}
+
+
+.container .row .col-md-8{
+    background-color: white;
 }
 .container h1{
     border-bottom-style: solid;
@@ -18,14 +28,8 @@
     background-color: gray;
     width: 150px;
     height: 150px;
-    /* margin: 0px; */
-    /* position: relative; */
-    /* float: left; */
 }
 
-/* .container .row .col-md-12 .wrapText {
-    float: left;
-} */
 p {
     text-align: left;
     [position: relative;]
