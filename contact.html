@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
@@ -14,28 +11,28 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">   
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+<!-- making sure the custom css comes after bootstrap so that the bootstrap css runs first -->
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <!-- navbar-expand-sm -->
+        <!-- bootstrap template for navbar, changed size to sm to avoid collapsing for medium sizes-->
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <!-- class="d-flex flex-grow-1" -->
-            <div class="d-flex flex-grow-1">
+            <section class="d-flex flex-grow-1">
                 <span class="w-100 d-sm-none d-block"></span>
                 <a class="navbar-brand d-none d-sm-inline-block" id="Name" href="#">
-                    Jonathan Garcia
+                    Your Name
                 </a>
                 <!-- <a class="navbar-brand-two mx-auto d-sm-none d-inline-block" href="#">
                     <img src="//placehold.it/40?text=LOGO" alt="logo">
                 </a> -->
-                <div class="w-100 text-right">
+                <section class="w-100 text-right">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                </div>
-            </div>
-            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                </section>
+            </section>
+            <section class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
                         <a href="./contact.html" class="nav-link m-2 menu-item nav-active">Contact</a>
@@ -47,55 +44,62 @@
                         <a href="./index.html" class="nav-link m-2 menu-item">About</a>
                     </li>
                 </ul>
-            </div>
+            </section>
         </nav>
         <main class="container">
             <section class="row">
+                <!-- setting this column to width 8 so that the content "box" covers 2/3 of the window -->               
                 <section class="col-sm-8">
-                    <div class="row">
-                        <div class="col-sm-12">
+                    <!-- first subrow. expanding the whole width of the container. -->
+                    <section class="row">
+                        <header class="col-sm-12">
                             <h1>Contact</h1>
-                        </div>
-                    </div>
-                
-                    <div class="row">
-                        <div class="col-sm-12">
+                        </header>
+                    </section>
+                <!-- second subrow containing the form with one row for each element in the form  -->
+                    <section class="row">
+                        <section class="col-sm-12">
                             <form>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-sm-9">
+                                <!-- this block is for the name field  -->
+                                <section class="form-group">
+                                    <section class="row">
+                                        <section class="col-sm-9">
                                             <label for="formGroupExampleInput">Name</label>
                                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
-                                        </div>
-                                    </div>  
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-9">
-                                        <div class="form-group">
+                                        </section>
+                                    </section>  
+                                </section>
+                                <!-- this block is for the email field  -->
+                                <section class="row">
+                                    <section class="col-sm-9">
+                                        <section class="form-group">
                                             <label for="formGroupExampleInput2">Email</label>
                                             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
-                                        </div>  
-                                    </div> 
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-9">
-                                        <div class="form-group">
+                                        </section>  
+                                    </section> 
+                                </section>
+                                <!-- this block is for the message field  -->
+                                <section class="row">
+                                    <section class="col-sm-9">
+                                        <section class="form-group">
                                             <label for="formGroupExampleInput2">Message</label>
+                                            <!-- everything is the same for each field except this "textarea" to add rows -->
                                             <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-                                        </div>  
-                                    </div>  
-                                </div>
-                                <div class="form-group row">
-                                    <div class="col-sm-10">
+                                        </section>  
+                                    </section>  
+                                </section>
+                                <section class="form-group row">
+                                    <section class="col-sm-10">
                                       <button type="submit" class="btn btn-primary"style="background-color:rgb(7, 151, 127)">Submit</button>
-                                    </div>
-                                  </div>
+                                    </section>
+                                </section>
                             </form>
-                        <div>
-                    </div>
+                        </section>
+                    </section>
                 </section>
             </section>
         </main>  
+        <!-- used bootstrap-given class names for the sticky footer  -->
         <footer class="footer">
             <section class="container">
                 <span class="text-muted"><p>&copy; Copyright</p></span>
