@@ -1,25 +1,32 @@
+/* adding the background image  */
 body{
     background-image: url("./Assets/Images/monkeys.png");
     background-size: cover;
     background-position: center;;
 }
+/* styling the name on the top left  */
 #Name{
     background-color: rgb(7, 151, 127);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
+    /* using percentage to be more responsive */
     margin-left: 10%;
 }
 
+/* main is the overall container  */
 main{
     padding-top: 25px;
     margin-left: 10%;
     /* background-color: white; */
 }
 
+/* only selecting the part of the container with the content (first column)  */
 .container .row .col-sm-8{
     background-color: white;
 }
+
+/* styling the header About Me/Portfolio/Contact  */
 .container h1{
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -29,28 +36,26 @@ main{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+/* setting the size of the image in the about me page  */
 .container img{
     background-color: gray;
     width: 150px;
     height: 150px;
 }
 
-/* main section section .row .col-sm-6 .image{
-    background-color: gray;
-    width: 350px;
-    height: 350px;
-} */
-
+/* adjusted font size and aligned to the left to help with wrapping the text  */
 p {
     font-size: 14px;
     text-align: left;
     position: relative;
 }
 
+
 #center-text {
     text-align: center;
 }
 
+/* styled the footer to match the screenshot footer  */
 footer {
     position: fixed;
     left: 0;
@@ -68,6 +73,8 @@ footer p{
     text-align: center;    
 }
 
+
+/* using a media screen for xs screen sizes  */
 @media screen and (max-width: 400px) {
     #Name{
         margin: 0;
