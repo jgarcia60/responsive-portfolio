@@ -43,6 +43,13 @@ main{
     height: 150px;
 }
 
+/* Set sizes of the portfolio images */
+main section section .row figure img{
+    height: 350px;
+    width: 350px;
+    margin-right: 1%;
+}
+
 /* adjusted font size and aligned to the left to help with wrapping the text  */
 p {
     font-size: 14px;
@@ -75,7 +82,7 @@ footer p{
 
 
 /* using a media screen for xs screen sizes  */
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
     #Name{
         margin: 0;
     }
@@ -84,3 +91,9 @@ footer p{
         width: max-width;
     }
 }
+/* 
+@media (max-width: 768px) {
+    main section section .row figure img{
+        margin: 2%;
+    }
+} */
