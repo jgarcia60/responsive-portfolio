@@ -38,9 +38,10 @@ main{
 
 /* setting the size of the image in the about me page  */
 .container img{
-    background-color: gray;
+    background-color: white;
     width: 150px;
     height: 150px;
+    padding: 0;
 }
 
 /* Set sizes of the portfolio images */
