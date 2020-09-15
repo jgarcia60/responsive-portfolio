@@ -6,12 +6,16 @@ body{
 }
 /* styling the name on the top left  */
 #Name{
-    background-color: rgb(7, 151, 127);
+    background-color: rgb(7, 161, 136);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
+    font-size:18px; 
     /* using percentage to be more responsive */
-    margin-left: 10%;
+    margin-left: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
 }
 
 /* main is the overall container  */
@@ -32,7 +36,7 @@ main{
     border-bottom-width: 1px;
     border-color: gray;
     font-weight: 900;
-    color: rgb(7, 151, 127);
+    color: rgb(7, 161, 136);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
@@ -48,7 +52,7 @@ main{
 main section section .row figure img{
     height: 350px;
     width: 350px;
-    margin-right: 1%;
+    margin: 1%;
 }
 
 /* adjusted font size and aligned to the left to help with wrapping the text  */
@@ -71,7 +75,7 @@ footer {
     width: 100%;
     border-top-width: 5px;
     border-top-style: solid;
-    border-color: rgb(7, 151, 127);
+    border-color: rgb(7, 161, 136);
     height: 50px;
     background-color: grey;
     text-align: center;   
@@ -84,17 +88,25 @@ footer p{
 
 /* using a media screen for xs screen sizes  */
 @media (max-width: 400px) {
-    #Name{
+    /* #Name{
         margin: 0;
-    }
+        align-self: left;
+        
+    } */
 
+    /* pushes the main content container to expand to the full width for xs screen sizes  */
     main{
         width: max-width;
     }
 }
-/* 
+
 @media (max-width: 768px) {
     main section section .row figure img{
-        margin: 2%;
+        margin: 5%;
     }
-} */
+/* The bootstrap CSS property would collapse the "Your Name" brand, so I removed the styling */
+    #Name{
+        display:unset !important;
+    }
+   
+}
