@@ -39,7 +39,15 @@ To install the project files, you can clone the "horiseon-code-refactor" reposit
 You may use this code as a template for boostrap grid containers, responsive navbars, forms, or a template for a webpage of your own. The custom CSS file or it's individual classes can be used for styling templates in other applications. 
 
 This is what it looks like:
-![screenshot](./assets/images/Homework-1-Screenshot.jpg). ***********************CHANGE THIS TO UPDATED SCREENSHOT************************
+![screenshot](./assets/images/JG-400-index.png)
+![screenshot](./assets/images/JG-400-contact.png).
+![screenshot](./assets/images/JG-400-portfolio.png).
+![screenshot](./assets/images/JG-768-index.png). 
+![screenshot](./assets/images/JG-768-contact.png).  
+![screenshot](./assets/images/JG-768-portfolio.png). 
+![screenshot](./assets/images/JG-992-index.png). 
+![screenshot](./assets/images/JG-992-contact.png). 
+![screenshot](./assets/images/JG-992-portfolio.png). 
 
 
 ## Credits
