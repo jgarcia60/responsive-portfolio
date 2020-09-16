@@ -22,7 +22,6 @@ body{
 main{
     padding-top: 25px;
     margin-left: 10%;
-    /* background-color: white; */
 }
 
 /* only selecting the part of the container with the content (first column)  */
@@ -80,6 +79,7 @@ footer {
     background-color: grey;
     text-align: center;   
 }
+/* style and center the copyright text  */
 footer p{
     color: rgb(110, 106, 106);
     text-align: center;    
@@ -88,12 +88,6 @@ footer p{
 
 /* using a media screen for xs screen sizes  */
 @media (max-width: 400px) {
-    /* #Name{
-        margin: 0;
-        align-self: left;
-        
-    } */
-
     /* pushes the main content container to expand to the full width for xs screen sizes  */
     main{
         width: max-width;
