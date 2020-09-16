@@ -52,7 +52,7 @@ This is what it looks like:
 
 ## Credits
 
-The initial HTML and CSS files were provided by Trilogy Education Services, a 2U, Inc. brand. All edits, additions, and revisions were done by Jonathan Garcia (https://github.com/jgarcia60/responsive-portfolio).
+All HTML and CSS files, edits, additions, and revisions were done by Jonathan Garcia (https://github.com/jgarcia60/responsive-portfolio). The linked css was taken from https://getbootstrap.com/docs/4.5/getting-started/introduction/
 
 
 ## License
