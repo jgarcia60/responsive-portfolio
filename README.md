@@ -8,12 +8,6 @@ This portfolio attempts to replicate screenshots of a web page by designing a gr
 
 One of the challenges in this assignment was getting the content text to wrap under the image in the index.html webpage. Another challenge was getting the Nav bar alignment to match the screenshots with their respsective responsive breakpoints. 
 
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
-
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
-
 
 ## Table of Contents (Optional)
 
