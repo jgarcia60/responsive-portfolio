@@ -9,9 +9,8 @@ This portfolio attempts to replicate screenshots of a web page by designing a gr
 One of the challenges in this assignment was getting the content text to wrap under the image in the index.html webpage. Another challenge was getting the Nav bar alignment to match the screenshots with their respsective responsive breakpoints. 
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
 
 * [Installation](#installation)
 * [Usage](#usage)
